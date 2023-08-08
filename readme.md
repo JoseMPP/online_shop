@@ -1,0 +1,1 @@
+Django project from the book Django By Example 4
