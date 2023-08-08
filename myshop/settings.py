@@ -57,8 +57,9 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'myshop.wsgi.application'
-
-
+MEDIA_URL = 'media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+CART_SESSION_ID = 'cart'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
